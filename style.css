@@ -1,0 +1,48 @@
+body{
+    background-color:darkmagenta;
+    text-align: center;
+    
+}
+h3{
+    background-color:crimson;
+    color: white;
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(6,120px);
+    grid-row-gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.cardimg{
+    background-image:url(asset/bg-img.webp);
+   
+}
+img{
+    width: 100px;
+}
+.matchcard{
+    color: white;
+    background-color:black;
+}
+#result{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: blue;
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+   
+}
+#restart{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+
